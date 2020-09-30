@@ -1,0 +1,85 @@
+$myFont: Helvetica, sans-serif;
+$myFontSize: 18px;
+$mainSize: 20px;
+$figFontSize: 14px;
+$pFont: Georgia, Helvetica, sans-serif;
+$headFont: Arial, sans-serif;
+$navColor: #333;
+
+* {
+    box-sizing: border-box;
+  }
+
+body {
+    font-family: $myFont;
+    font-size: $myFontSize;
+}
+
+p {
+    font-family: $pFont;
+}
+
+h1 {
+    font-family: $headFont;
+    text-align: center;
+}
+
+#apbt {
+  text-align: center;
+}
+
+#intro-pic {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.hist-pics {
+  display: inline-block;
+  width: 300px;
+  height: 300px;
+}
+
+.images {
+  text-align: center;
+}
+
+figure {
+  display: inline-block;
+  padding: 10px;
+  margin: 20px;
+}
+
+figcaption {
+  font-size: $figFontSize;
+  color: $navColor;
+}
+
+nav {
+    background-color: $navColor;
+    margin: 0;
+    padding: 16px;
+    color: antiquewhite;
+    text-align: center;
+    ul {
+      margin: 0;
+      padding: 0;
+      list-style:none;
+      width: 100%;
+      li {
+        display:inline-block;
+        padding: 8px;
+        text-decoration: none;
+        border-right: 1px solid #bbb;
+      }
+      li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+    }
+  }
+
+ 
